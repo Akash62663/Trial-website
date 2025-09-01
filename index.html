@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akash Kanike | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Akash Kanike</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-text">
+      <h1>Hi, I’m <span>Akash Kanike</span></h1>
+      <h2 class="typing"></h2>
+      <p>12th Pass | Future Physiotherapist (BPT) | Tech Enthusiast 🚀</p>
+      <button onclick="scrollToSection('about')">Explore More</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>👋 My name is <strong>Akash Kanike</strong>, born on <strong>23rd November 2007</strong>.</p>
+    <p>I have completed my <strong>12th (Science, 2024)</strong> and will soon pursue a <strong>Bachelor of Physiotherapy (BPT)</strong>.</p>
+    <p>I enjoy exploring technology, web design, and creative projects alongside my medical journey 🌍.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML & CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Web Design</div>
+      <div class="skill">Creativity</div>
+      <div class="skill">Healthcare</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Personal Portfolio</h3>
+        <p>This portfolio website made with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Mini Web Designs</h3>
+        <p>Practicing UI/UX design and animations.</p>
+      </div>
+      <div class="card">
+        <h3>Healthcare Blogs</h3>
+        <p>Exploring physiotherapy and fitness content creation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return handleSubmit(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Write your message..." required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Akash Kanike | Future Physiotherapist 👨‍⚕️ | Made with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
